@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight widget</title>
+
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="widget-info">
+            <h1>Madrid Barajas Airport Flights Widget</h1>
+        </div>
+        <div class="departures">
+            <h1>DEPARTURES</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th id="time">TIME</th>
+                        <th id="destination">DESTINATION</th>
+                        <th id="flight">FLIGHT</th>
+                        <th id="terminal">TERMINAL</th>
+                        <th id="gate">GATE</th>
+                        <th id="status">STATUS</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
